@@ -17,8 +17,8 @@
 ---
 
 ## 📌 About Me  
-- 🎓 CS student, passionate about **Coding** & **automation**  
-- 🔭 Currently working on [XLICON-MD BOTS](https://github.com/ahmmikun/XLICON-V3-MD)  
+- 🎓 business student, passionate about **Coding**, **Business** & **analyzing**  
+- 🔭 Currently working on [Qxel](https://qxel.app)  
 - 🌱 Learning **Web Development & Backend Integration**  
 - 🤝 Open to collaborate on **WhatsApp Bots & Open Source Projects**  
 - 💬 Ask me about **AI Bots, Automation, and Coding Basics**  
