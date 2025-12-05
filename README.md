@@ -78,37 +78,29 @@
 ## 📊 GitHub Stats  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ahmmikun&show_icons=true&title_color=00A3FF&icon_color=00A3FF&text_color=FFFFFF&bg_color=0D1117,001C6C,000000" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmmikun&title_color=00A3FF&text_color=FFFFFF&bg_color=0D1117,001C6C,000000&layout=compact" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=LittleCeo&show_icons=true&title_color=00A3FF&icon_color=00A3FF&text_color=FFFFFF&bg_color=0D1117,001C6C,000000" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LittleCeo&title_color=00A3FF&text_color=FFFFFF&bg_color=0D1117,001C6C,000000&layout=compact" height="150"/>
 </p>  
 
 
 </p>
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ahmmikun&bg_color=0D1117&color=00A3FF&line=00A3FF&point=FFFFFF&area=true&hide_border=true"/>
-</p>  
-
----
-
-### 📊 Repo Stats  
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ahmmikun&repo=XLICON-V2-MD&title_color=00A3FF&icon_color=00A3FF&text_color=FFFFFF&bg_color=0D1117,001C6C,000000"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=littleceo&bg_color=0D1117&color=00A3FF&line=00A3FF&point=FFFFFF&area=true&hide_border=true"/>
 </p>  
  
-
 ---
 
 <details>
   <summary>🏆 <b>GitHub Awards</b></summary><br/>
   <p align="center">
-    <img src="https://github-profile-trophy.vercel.app/?username=ahmmikun"/>
+    <img src="https://github-profile-trophy.vercel.app/?username=littleceo"/>
   </p>
 </details>  
 
 ---
 
 ## 💡 Fun Fact  
-> "Everyone thinks I’m a professional programmer… but honestly, I’m just a student still learning every day!" 😄  
+> "As a business student who emotionally attached to business,i don't know why the heck i learned coding"  
 
 ---
 
@@ -119,15 +111,7 @@
 
 ### 🔝 Top Contributed Repo  
 <p align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=ahmmikun&limit=5&theme=flat&combine_all_yearly_contributions=true"/>
+  <img src="https://github-contributor-stats.vercel.app/api?username=LittleCeo n&limit=5&theme=flat&combine_all_yearly_contributions=true"/>
 </p>  
 
 ---
-
-## ☕ Support My Work  
-If you like my projects or bots, consider supporting me:  
-
-<p align="center">
-  <a href="https://buymeacoffee.com/ahmmikun"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"></a>
-  <a href="https://patreon.com/ahmmikun"><img src="https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white"></a>
-</p>  
