@@ -19,20 +19,16 @@
 ## 📌 About Me  
 - 🎓 business student, passionate about **Coding**, **Business** & **analyzing**  
 - 🔭 Currently working on [Qxel](https://qxel.app)  
-- 🌱 Learning **Web Development & Backend Integration**  
-- 🤝 Open to collaborate on **WhatsApp Bots & Open Source Projects**  
-- 💬 Ask me about **AI Bots, Automation, and Coding Basics**  
-- 📍 Based in **Lahore, Punjab, Pakistan**  
-- 📫 Reach me: **salmansheikh2500@gmail.com**  
+- 🌱 Learning **Web Infrastructures & Marketing strategies**  
+- 💬 Ask me about **Technically anything except personal life.**  
+- 📍 Based in **Malappuram, Kerala, India**  
+- 📫 Reach me: **pyavamottapettavan@gmail.com**  
 
 ---
 
 ## 🛠️ Skills & Tools  
 
 **Programming Languages:**  
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) 
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)  
 
