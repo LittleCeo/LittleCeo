@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <style>
+      @keyframes pulse {
+        0% { opacity: 0.7; }
+        50% { opacity: 1; }
+        100% { opacity: 0.7; }
+      }
+      @keyframes float {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-3px); }
+        100% { transform: translateY(0); }
+      }
+      @keyframes glow {
+        0% { filter: drop-shadow(0 0 2px currentColor); }
+        50% { filter: drop-shadow(0 0 6px currentColor); }
+        100% { filter: drop-shadow(0 0 2px currentColor); }
+      }
+      @keyframes progress {
+        0% { width: 10px; }
+        100% { width: 70px; }
+      }
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes wave {
+        0% { transform: translateY(0px); }
+        25% { transform: translateY(-2px); }
+        50% { transform: translateY(0px); }
+        75% { transform: translateY(2px); }
+        100% { transform: translateY(0px); }
+      }
+      .skill-text {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+        fill: #c9d1d9;
+      }
+      .level-text {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        font-size: 10px;
+        fill: #8b949e;
+      }
+      .title {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        fill: #58a6ff;
+      }
+      .pulse {
+        animation: pulse 2s infinite;
+      }
+      .float {
+        animation: float 3s infinite ease-in-out;
+      }
+      .glow {
+        animation: glow 2s infinite;
+      }
+      .spin {
+        animation: spin 8s infinite linear;
+        transform-origin: center;
+      }
+      .wave {
+        animation: wave 1.5s infinite ease-in-out;
+      }
+    </style>
+    
+    <!-- Icons for skills -->
+    <symbol id="business-icon" viewBox="0 0 20 20">
+      <path fill="#238636" d="M10 0C4.48 0 0 4.48 0 10s4.48 10 10 10 10-4.48 10-10S15.52 0 10 0zm1 15H9v-6h2v6zm0-8H9V5h2v2z"/>
+    </symbol>
+    
+    <symbol id="coding-icon" viewBox="0 0 20 20">
+      <path fill="#58a6ff" d="M7 4l-6 6 6 6 1.41-1.41L3.83 10l4.58-4.59L7 4zm6 0l1.41 1.41L16.17 10l-4.58 4.59L13 16l6-6-6-6z"/>
+    </symbol>
+    
+    <symbol id="hacking-icon" viewBox="0 0 20 20">
+      <path fill="#da3633" d="M10 0C4.48 0 0 4.48 0 10s4.48 10 10 10 10-4.48 10-10S15.52 0 10 0zM2 10c0-4.42 3.58-8 8-8 1.85 0 3.55.63 4.9 1.69L3.69 14.9C2.63 13.55 2 11.85 2 10zm8 8c-1.85 0-3.55-.63-4.9-1.69L16.31 5.1C17.37 6.45 18 8.15 18 10c0 4.42-3.58 8-8 8z"/>
+    </symbol>
+    
+    <symbol id="seo-icon" viewBox="0 0 20 20">
+      <path fill="#a371f7" d="M10 0C4.48 0 0 4.48 0 10s4.48 10 10 10 10-4.48 10-10S15.52 0 10 0zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H9v6l5.25 3.15.75-1.23-4.5-2.67V5z"/>
+    </symbol>
+    
+    <symbol id="design-icon" viewBox="0 0 20 20">
+      <path fill="#e3b341" d="M15.5 1h-11C3.67 1 3 1.67 3 2.5v15C3 18.33 3.67 19 4.5 19h11c.83 0 1.5-.67 1.5-1.5v-15C17 1.67 16.33 1 15.5 1zM16 17.5c0 .28-.22.5-.5.5h-11c-.28 0-.5-.22-.5-.5v-15c0-.28.22-.5.5-.5h11c.28 0 .5.22.5.5v15zM6 5h8v2H6V5zm0 4h8v2H6V9zm0 4h5v2H6v-2z"/>
+    </symbol>
+    
+    <symbol id="server-icon" viewBox="0 0 20 20">
+      <path fill="#7ee787" d="M5 1h10v4H5V1zm0 6h10v4H5V7zm0 6h10v4H5v-4zM2 1h1v4H2V1zm0 6h1v4H2V7zm0 6h1v4H2v-4zm15 0h1v4h-1v-4zm0-6h1v4h-1V7zm0-6h1v4h-1V1z"/>
+    </symbol>
+    
+    <!-- Background pattern -->
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#30363d" stroke-width="0.5"/>
+    </pattern>
+    
+    <!-- Gradients for progress bars -->
+    <linearGradient id="business-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#238636" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#238636" stop-opacity="1"/>
+    </linearGradient>
+    
+    <linearGradient id="coding-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="1"/>
+    </linearGradient>
+    
+    <linearGradient id="hacking-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#da3633" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#da3633" stop-opacity="1"/>
+    </linearGradient>
+    
+    <linearGradient id="seo-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a371f7" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#a371f7" stop-opacity="1"/>
+    </linearGradient>
+    
+    <linearGradient id="design-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e3b341" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#e3b341" stop-opacity="1"/>
+    </linearGradient>
+    
+    <linearGradient id="server-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7ee787" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#7ee787" stop-opacity="1"/>
+    </linearGradient>
+    
+    <!-- Animated particles -->
+    <circle id="particle" cx="0" cy="0" r="1" fill="#58a6ff">
+      <animate attributeName="r" values="1;2;1" dur="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="1s" repeatCount="indefinite"/>
+    </circle>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0d1117"/>
+  <rect width="100%" height="100%" fill="url(#grid)"/>
+  
+  <!-- Animated particles in background -->
+  <g id="particles">
+    <use xlink:href="#particle" x="50" y="40" class="float"/>
+    <use xlink:href="#particle" x="350" y="60" class="float">
+      <animate attributeName="y" values="60;55;60" dur="4s" repeatCount="indefinite"/>
+    </use>
+    <use xlink:href="#particle" x="100" y="250" class="float">
+      <animate attributeName="y" values="250;245;250" dur="3s" repeatCount="indefinite"/>
+    </use>
+    <use xlink:href="#particle" x="300" y="200" class="float"/>
+    <use xlink:href="#particle" x="150" y="100" class="float">
+      <animate attributeName="y" values="100;95;100" dur="5s" repeatCount="indefinite"/>
+    </use>
+  </g>
+  
+  <!-- Title with animation -->
+  <g class="wave">
+    <text x="200" y="30" text-anchor="middle" class="title">Life Loop</text>
+  </g>
+  <text x="200" y="50" text-anchor="middle" font-size="10" fill="#8b949e">The Infinite Life shit Loop!</text>
+  
+  <!-- Game stats with animations -->
+  <g>
+    <rect x="20" y="70" width="360" height="40" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    
+    <!-- Animated total points -->
+    <text x="40" y="95" class="level-text">Total Points:</text>
+    <g class="pulse">
+      <text x="110" y="95" class="level-text" fill="#c9d1d9">
+        <animate id="totalAnim" attributeName="textContent" values="0;150;300;450;600" dur="30s" repeatCount="indefinite"/>
+      </text>
+    </g>
+    
+    <!-- Animated level -->
+    <text x="200" y="95" class="level-text">Level:</text>
+    <g class="glow">
+      <text x="240" y="95" class="level-text" fill="#58a6ff">
+        <animate attributeName="textContent" values="1;2;3;4;5;6;7;8;9;10;9;8;7;6;5;4;3;2;1" dur="40s" repeatCount="indefinite"/>
+      </text>
+    </g>
+    
+    <!-- Animated time -->
+    <text x="320" y="95" class="level-text">Time:</text>
+    <text x="360" y="95" class="level-text" fill="#c9d1d9">
+      <animate id="timeAnim" attributeName="textContent" values="0s;5s;10s;15s;20s;25s;30s;35s;40s;45s;50s;55s;60s" dur="60s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  
+  <!-- Skills Section with animations -->
+  
+  <!-- Business Skill -->
+  <g id="business-skill" class="float">
+    <rect x="30" y="130" width="70" height="70" rx="5" fill="#161b22" stroke="#238636" stroke-width="2">
+      <animate attributeName="stroke-width" values="2;3;2" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <g class="spin">
+      <use xlink:href="#business-icon" x="50" y="145" width="20" height="20"/>
+    </g>
+    <text x="65" y="185" text-anchor="middle" class="skill-text">BUSINESS</text>
+    <rect x="30" y="195" width="70" height="8" rx="4" fill="#30363d"/>
+    <rect id="business-bar" x="30" y="195" width="10" height="8" rx="4" fill="url(#business-gradient)">
+      <animate attributeName="width" values="10;20;40;60;70;60;40;20;10" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="65" y="215" text-anchor="middle" class="level-text">Level 
+      <tspan fill="#238636">
+        <animate attributeName="textContent" values="1;2;3;4;5;4;3;2;1" dur="10s" repeatCount="indefinite"/>
+      </tspan>
+    </text>
+  </g>
+  
+  <!-- Coding Skill -->
+  <g id="coding-skill">
+    <rect x="115" y="130" width="70" height="70" rx="5" fill="#161b22" stroke="#58a6ff" stroke-width="2">
+      <animate attributeName="stroke-width" values="2;3;2" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <g class="pulse">
+      <use xlink:href="#coding-icon" x="135" y="145" width="20" height="20"/>
+    </g>
+    <text x="150" y="185" text-anchor="middle" class="skill-text">CODING</text>
+    <rect x="115" y="195" width="70" height="8" rx="4" fill="#30363d"/>
+    <rect id="coding-bar" x="115" y="195" width="10" height="8" rx="4" fill="url(#coding-gradient)">
+      <animate attributeName="width" values="10;30;50;70;50;30;10;30;50;70" dur="12s" repeatCount="indefinite"/>
+    </rect>
+    <text x="150" y="215" text-anchor="middle" class="level-text">Level 
+      <tspan fill="#58a6ff">
+        <animate attributeName="textContent" values="1;3;5;7;9;7;5;3;1" dur="15s" repeatCount="indefinite"/>
+      </tspan>
+    </text>
+  </g>
+  
+  <!-- Hacking Skill -->
+  <g id="hacking-skill" class="float">
+    <rect x="200" y="130" width="70" height="70" rx="5" fill="#161b22" stroke="#da3633" stroke-width="2">
+      <animate attributeName="stroke-width" values="2;4;2" dur="1.5s" repeatCount="indefinite"/>
+    </rect>
+    <g class="pulse">
+      <use xlink:href="#hacking-icon" x="220" y="145" width="20" height="20"/>
+    </g>
+    <text x="235" y="185" text-anchor="middle" class="skill-text">HACKING</text>
+    <rect x="200" y="195" width="70" height="8" rx="4" fill="#30363d"/>
+    <rect id="hacking-bar" x="200" y="195" width="10" height="8" rx="4" fill="url(#hacking-gradient)">
+      <animate attributeName="width" values="10;25;40;55;70;55;40;25;10" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="235" y="215" text-anchor="middle" class="level-text">Level 
+      <tspan fill="#da3633">
+        <animate attributeName="textContent" values="1;4;7;10;7;4;1" dur="9s" repeatCount="indefinite"/>
+      </tspan>
+    </text>
+  </g>
+  
+  <!-- SEO Skill -->
+  <g id="seo-skill">
+    <rect x="285" y="130" width="70" height="70" rx="5" fill="#161b22" stroke="#a371f7" stroke-width="2">
+      <animate attributeName="stroke-width" values="2;3;2" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <g class="spin">
+      <use xlink:href="#seo-icon" x="305" y="145" width="20" height="20"/>
+    </g>
+    <text x="320" y="185" text-anchor="middle" class="skill-text">SEO</text>
+    <rect x="285" y="195" width="70" height="8" rx="4" fill="#30363d"/>
+    <rect id="seo-bar" x="285" y="195" width="10" height="8" rx="4" fill="url(#seo-gradient)">
+      <animate attributeName="width" values="10;35;60;70;60;35;10" dur="10s" repeatCount="indefinite"/>
+    </rect>
+    <text x="320" y="215" text-anchor="middle" class="level-text">Level 
+      <tspan fill="#a371f7">
+        <animate attributeName="textContent" values="1;5;9;5;1" dur="12s" repeatCount="indefinite"/>
+      </tspan>
+    </text>
+  </g>
+  
+  <!-- Design Skill -->
+  <g id="design-skill" class="float">
+    <rect x="30" y="230" width="70" height="70" rx="5" fill="#161b22" stroke="#e3b341" stroke-width="2">
+      <animate attributeName="stroke-width" values="2;3;2" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <g class="pulse">
+      <use xlink:href="#design-icon" x="50" y="245" width="20" height="20"/>
+    </g>
+    <text x="65" y="285" text-anchor="middle" class="skill-text">DESIGN</text>
+    <rect x="30" y="295" width="70" height="8" rx="4" fill="#30363d"/>
+    <rect id="design-bar" x="30" y="295" width="10" height="8" rx="4" fill="url(#design-gradient)">
+      <animate attributeName="width" values="10;45;70;45;10" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <text x="65" y="315" text-anchor="middle" class="level-text">Level 
+      <tspan fill="#e3b341">
+        <animate attributeName="textContent" values="1;6;8;6;1" dur="11s" repeatCount="indefinite"/>
+      </tspan>
+    </text>
+  </g>
+  
+  <!-- Server/DevOps Skill -->
+  <g id="server-skill">
+    <rect x="115" y="230" width="70" height="70" rx="5" fill="#161b22" stroke="#7ee787" stroke-width="2">
+      <animate attributeName="stroke-width" values="2;3;2" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+    <g class="pulse">
+      <use xlink:href="#server-icon" x="135" y="245" width="20" height="20"/>
+    </g>
+    <text x="150" y="285" text-anchor="middle" class="skill-text">DEVOPS</text>
+    <rect x="115" y="295" width="70" height="8" rx="4" fill="#30363d"/>
+    <rect id="server-bar" x="115" y="295" width="10" height="8" rx="4" fill="url(#server-gradient)">
+      <animate attributeName="width" values="10;60;70;60;10" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <text x="150" y="315" text-anchor="middle" class="level-text">Level 
+      <tspan fill="#7ee787">
+        <animate attributeName="textContent" values="1;8;10;8;1" dur="14s" repeatCount="indefinite"/>
+      </tspan>
+    </text>
+  </g>
+  
+  <!-- Animated status message -->
+  <g id="status-message">
+    <rect x="200" y="230" width="155" height="40" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="205" y="250" font-size="9" fill="#8b949e">Status:</text>
+    <text x="205" y="265" font-size="10" fill="#58a6ff" id="status-text">
+      <animate attributeName="textContent" 
+               values="Starting game...;Developing features;Optimizing SEO;Securing systems;Designing UI;Deploying servers;Analyzing business;All systems running!" 
+               dur="24s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  
+  <!-- Central animated element -->
+  <g id="center-animation">
+    <circle cx="277" cy="255" r="15" fill="none" stroke="#30363d" stroke-width="2"/>
+    <circle cx="277" cy="255" r="10" fill="none" stroke="#58a6ff" stroke-width="2" class="spin"/>
+    <circle cx="277" cy="255" r="5" fill="#58a6ff" class="pulse"/>
+  </g>
+  
+  
+  <!-- Bottom progress indicator -->
+  <rect x="50" y="295" width="300" height="3" rx="1.5" fill="#30363d"/>
+  <rect x="50" y="295" width="300" height="3" rx="1.5" fill="#58a6ff">
+    <animate attributeName="width" values="0;50;100;150;200;250;300;250;200;150;100;50;0" dur="20s" repeatCount="indefinite"/>
+  </rect>
+</svg>
