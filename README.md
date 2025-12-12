@@ -1,3 +1,4 @@
+![game](https://github.com/user-attachments/assets/6c26e09b-6bd3-4b22-af4b-64bac2df7214)
 # 👋 Hi, Shxmee
 
 <p align="center">  
