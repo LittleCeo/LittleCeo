@@ -2,8 +2,7 @@
 
 <p align="center">  
   <a href="https://github.com/LittleCeo">
-    ![index](https://github.com/user-attachments/assets/81c44edc-122e-42ac-b397-94f06064987c)
-
+    <img src="https://github.com/user-attachments/assets/81c44edc-122e-42ac-b397-94f06064987c" alt="Profile GIF" height="300">
   </a>
 </p>  
 
