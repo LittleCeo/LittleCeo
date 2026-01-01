@@ -64,9 +64,8 @@
   <a href="https://youtube.com/@s4salmanyt"><img src="https://img.shields.io/badge/YouTube-ff0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
   <a href="http://Wa.me/923184070915"><img src="https://img.shields.io/badge/Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
   <a href="https://facebook.com/AhmmiKun"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"></a>
-  <a href="https://instagram.com/ahmmikun"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
   <a href="https://x.com/ahmmikun"><img src="https://img.shields.io/badge/Twitter/X-000000?style=for-the-badge&logo=x&logoColor=white"></a>
-  <a href="https://linkedin.com/in/ahmmikun"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://linkedin.com/in/shxmeem"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </p>  
 
 ---
@@ -78,8 +77,8 @@
 ## 📊 GitHub Stats  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=LittleCeo&show_icons=true&title_color=00A3FF&icon_color=00A3FF&text_color=FFFFFF&bg_color=0D1117,001C6C,000000" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LittleCeo&title_color=00A3FF&text_color=FFFFFF&bg_color=0D1117,001C6C,000000&layout=compact" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Shxmeem&show_icons=true&title_color=00A3FF&icon_color=00A3FF&text_color=FFFFFF&bg_color=0D1117,001C6C,000000" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shxmeem&title_color=00A3FF&text_color=FFFFFF&bg_color=0D1117,001C6C,000000&layout=compact" height="150"/>
 </p>  
 
 
