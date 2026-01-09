@@ -2,7 +2,7 @@
 
 <p align="center">  
   <a href="https://github.com/LittleCeo">
-    <img src="https://github.com/user-attachments/assets/81c44edc-122e-42ac-b397-94f06064987c" alt="Profile GIF" height="300">
+    <img src="https://raw.githubusercontent.com/qxel/assets/newlogo/q.png" alt="Profile GIF" height="300">
   </a>
 </p>  
 
@@ -11,7 +11,7 @@
 ## 👥 Profile Views  
 
 <p align="center">
-  <img alt="count" src="https://count.getloli.com/get/@:LittleCeo?theme=original-new">
+  <img alt="count" src="https://count.getloli.com/get/@:littleceo?theme=original-new">
 </p>
 
 ---
@@ -22,7 +22,7 @@
 - 🌱 Learning **Web Infrastructures & Marketing strategies**  
 - 💬 Ask me about **Technically anything except personal life.**  
 - 📍 Based in **Malappuram, Kerala, India**  
-- 📫 Reach me: **pyavamottapettavan@gmail.com**  
+- 📫 Reach me: **shxme3m@gmail.com**  
 
 ---
 
@@ -61,11 +61,7 @@
 ## 🌐 Connect With Me  
 
 <p align="center">
-  <a href="https://youtube.com/@s4salmanyt"><img src="https://img.shields.io/badge/YouTube-ff0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
-  <a href="http://Wa.me/923184070915"><img src="https://img.shields.io/badge/Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
-  <a href="https://facebook.com/AhmmiKun"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"></a>
-  <a href="https://x.com/ahmmikun"><img src="https://img.shields.io/badge/Twitter/X-000000?style=for-the-badge&logo=x&logoColor=white"></a>
-  <a href="https://linkedin.com/in/shxmeem"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="http://Wa.me/918593848438"><img src="https://img.shields.io/badge/Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
 </p>  
 
 ---
@@ -84,7 +80,7 @@
 
 </p>
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=littleceo&bg_color=0D1117&color=00A3FF&line=00A3FF&point=FFFFFF&area=true&hide_border=true"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shxmeem&bg_color=0D1117&color=00A3FF&line=00A3FF&point=FFFFFF&area=true&hide_border=true"/>
 </p>  
  
 ---
@@ -92,14 +88,14 @@
 <details>
   <summary>🏆 <b>GitHub Awards</b></summary><br/>
   <p align="center">
-    <img src="https://github-profile-trophy.vercel.app/?username=littleceo"/>
+    <img src="https://github-profile-trophy.vercel.app/?username=Shxmeem"/>
   </p>
 </details>  
 
 ---
 
 ## 💡 Fun Fact  
-> "As a business student who emotionally attached to business,i don't know why the heck i learned coding"  
+> "Just an Entrepreneur"  
 
 ---
 
@@ -110,7 +106,7 @@
 
 ### 🔝 Top Contributed Repo  
 <p align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=LittleCeo n&limit=5&theme=flat&combine_all_yearly_contributions=true"/>
+  <img src="https://github-contributor-stats.vercel.app/api?username=Shxmeem n&limit=5&theme=flat&combine_all_yearly_contributions=true"/>
 </p>  
 
 ---
