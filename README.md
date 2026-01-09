@@ -1,5 +1,3 @@
-# 👋 Hi, Shxmee
-
 
 ## 👥 Profile Views  
 
