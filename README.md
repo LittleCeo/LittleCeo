@@ -1,12 +1,5 @@
 # 👋 Hi, Shxmee
 
-<p align="center">  
-  <a href="https://github.com/LittleCeo">
-    <img src="https://raw.githubusercontent.com/qxel/assets/newlogo/q.png" alt="Profile GIF" height="300">
-  </a>
-</p>  
-
----
 
 ## 👥 Profile Views  
 
